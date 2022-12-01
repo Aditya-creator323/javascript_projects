@@ -36,7 +36,7 @@ let API_KEY = "8bf1bf7dbemsh4f5fb791b988ef6p10080ajsne1532874663a";
  * HINT: URL should look like this:
  * https://api.openweathermap.org/data/2.5/weather?q=detroit&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial
  */
-getWeatherData = (city) => {
+const getWeatherData = (city) => {
   const URL = `https://open-weather13.p.rapidapi.com/city/${city}`;
 
   fetch(URL, options)
