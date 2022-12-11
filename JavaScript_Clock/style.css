@@ -1,0 +1,16 @@
+
+body{
+    background-color: black;
+    color: cyan;
+}
+
+#wrapper{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 60px;
+    font-family: orbitron;
+    margin-top: 250px;
+    padding: 10px;
+}
+
